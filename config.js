@@ -9,10 +9,10 @@
 */
 
 var settings = {
-    'radio_name': 'Brasil Hits',
+    'radio_name': 'PKW Top 40',
 
     // URL of streaming without / on the final, eg: http://streaming.com:8080
-    'url_streaming': 'https://streaming.brasilhits.com/acc',
+    'url_streaming': 'https://pakawacast.net/radio/8000/radio-capullo.mp3',
 
     // When choosing icecast, make sure the file 'player.log' in the document root is writeable.
     // Choose between 'shoutcast' or 'icecast'
@@ -22,7 +22,7 @@ var settings = {
     'api_key': '18fe07917957c289983464588aabddfb',
 
     // Set to true to get the last songs played
-    'historic': true,
+    'historic': false,
 
     // Only for SHOUTCast!
     // Set to true to show the next song to be played. 
@@ -30,5 +30,5 @@ var settings = {
     'next_song': false,
 
     // Path to default cover art when none are found
-    'default_cover_art': 'img/bg-capa.jpg',
+    'default_cover_art': 'https://pakawacast.com/media/pakawacast-default.png',
 };
